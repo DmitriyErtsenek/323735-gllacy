@@ -1,7 +1,7 @@
 ﻿# Личный проект «Глейси»
 
 * Студент: [Dmitriy Gorlev](https://up.htmlacademy.ru/htmlcss/16/user/323735).
-* Наставник: Денис Верхотуров.
+* Наставник: [Денис Верхотуров](https://htmlacademy.ru/profile/id56756).
 
 ---
 
