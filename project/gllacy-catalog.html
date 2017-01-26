@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<header class="main-header">
+		<div class="container">
+			<div class="logo">
+			Logo
+			</div>
+			<nav class="main-navigation">
+				<ul>
+					<li>
+						<a href="">Каталог</a>
+					</li>
+					<li>
+						<a href="">Доставка и оплата</a>
+					</li>
+					<li>
+						<a href="">О Компании</a>
+					</li>
+				</ul>		
+			</nav>
+			<div class="catalog-select">
+				<select>
+					<option>Новинки</option>
+					<option>Сливочное</option>
+					<option>Щербеты</option>
+					<option>Фруктовый лед</option>
+					<option>Мелорин</option>
+				</select>
+			</div>
+			<div class="user-block">
+				<button class="search"></button>
+				<button class="enter">Вход</button>
+				<button class="basket">Корзина</button>
+			</div>
+			<div class="basket-cart">
+				<div class="product">
+					<div class="product-icon"></div>
+					<div class="description">
+						<p>Пломбир с апельсиновым джемом</p>
+					</div>
+					<div class="price">
+						<p>1.5 кг x 200 руб.</p>
+					</div>
+					<div class="cost">
+						<p>300 руб.</p>
+					</div>
+				</div>
+				<div class="product">
+					<div class="product-icon"></div>
+					<div class="description">
+						<p>Клубничный пломбир с присыпкой из белого шоколада</p>
+					</div>
+					<div class="price">
+						<p>1.5 кг x 300 руб.</p>
+					</div>
+					<div class="cost">
+						<p>450 руб.</p>
+					</div>
+				</div>
+				<div class="total">
+					<p>Итого: 750 руб.</p>
+				</div>
+				<a href="">Оформить заказ</a>
+			</div>
+			<div class="schedule">
+				C 10 до 20, ежедневно 8 812 450-25-25
+			</div>
+			<form class="search-form" action="URL" method="get">
+				<input type="search" name="search" placeholder="Что ищем?">
+			</form>
+			<form class="email-form" action="URL" method="post">
+				<input type="email" name="email"  placeholder="Электронная почта" >
+				<input type="password" name="password" placeholder="Пароль">
+				<button type="submit" value="enter">Войти</button>
+				<a href="">Забыли пароль?</a>
+				<a href="">Новая регистрация</a>
+			</form>
+		</div>
+	</header>
+	<main>
+		<div class="breadcrumbs">
+			<ul>
+				<li><a href="">Главная</a></li>
+				<li><a href="">Каталог</a></li>
+				<li><a href="">Сливочное</a></li>
+			</ul>
+		</div>
+		<h1 class="sort">
+			Сливочное мороженое
+		</h1>
+		<div class="select">
+			<form class="select-form" action="URL" method="post">
+				<label>Сортировка:
+					<select>
+						<option>по популярности</option>
+					</select>
+				</label>
+				<label>
+					Цена: 100 р. - 500 руб.
+					<input type="range" max="500" min="100" name="">
+				</label>
+				<label>
+					Жирность:
+					<label for="">
+						0%
+						<input type="radio" name="fatness" value="0">
+					</label>
+					<label for="">
+						до 10%
+						<input type="radio" name="fatness" value="<10" checked>
+					</label>
+					<label for="">
+						до 30%
+						<input type="radio" name="fatness" value="<30">
+					</label>
+					<label for="">
+						выше 30%
+						<input type="radio" name="fatness" value="30>" >
+					</label>
+				</label>
+				<label>
+					Наполнители:
+					<label>
+						шоколадные
+						<input type="checkbox" name="chocolate">
+					</label>
+					<label>
+						сахарные присыпки
+						<input type="checkbox" name="shugar-topping">
+					</label>
+					<label>
+						фрукты
+						<input type="checkbox" name="fruits">
+					</label>
+					<label>
+						сиропы
+						<input type="checkbox" name="cyrop">
+					</label>
+					<label>
+						джемы
+						<input type="checkbox" name="jam">
+					</label>
+				</label>
+				<button type="submit">
+					Применить
+				</button>
+			</form>
+		</div>
+		<div class="catalog">
+			<div class="cart">
+			<div class="product-image orange-citrus-chips"></div>
+				<p>
+					Сливочное с апельсиновым джемом и цитрусовой стружкой
+				</p>
+			</div>
+			<div class="cart">
+			<div class="product-image coffee-chocolate"></div>
+				<p>
+					Сливочно-кофейное с кусочками шоколада
+				</p>
+			</div>
+			<div class="cart">
+			<div class="product-image strawberry-white-chocolate"></div>
+				<p>
+					Сливочно-клубничное с присыпкой из белого шоколада
+				</p>
+			</div>
+			<div class="cart">
+			<div class="product-image creme-brulee-caramel"></div>
+				<p>
+					Сливочное крем-брюле с карамельной подливкой
+				</p>
+			</div>
+			<div class="cart">
+			<div class="product-image cranberry"></div>
+				<p>
+					Сливочное с брусничным джемом
+
+				</p>
+			</div>
+			<div class="cart">
+			<div class="product-image bilberry"></div>
+				<p>
+					Сливочно-черничное с цельными ягодами черники 
+				</p>
+			</div>
+			<div class="cart">
+			<div class="product-image lemon-caramel"></div>
+				<p>
+					Сливочно-лимонное с карамельной присыпкой
+				</p>
+			</div>
+			<div class="cart">
+			<div class="product-image chocolate-chips"></div>
+				<p>
+					Сливочное с шоколадной стружкой
+				</p>
+			</div>
+			<div class="cart">
+			<div class="product-image vanilla-chocolate"></div>
+				<p>
+					Сливочно-ванильное с кусочками шоколада
+				</p>
+			</div>
+			<div class="cart">
+			<div class="product-image menthol"></div>
+				<p>
+					Сливочноe с ментоловым сиропом
+				</p>
+			</div>
+			<div class="cart">
+			<div class="product-image black-chocolate-pieces"></div>
+				<p>
+					Сливочное с кусочками черного шоколада
+				</p>
+			</div>
+			<div class="cart">
+			<div class="product-image mint-syrup"></div>
+				<p>
+					Сливочное с мятным сиропом
+				</p>
+			</div>
+		</div>
+		<div class="pages">
+			<a href="#1">1</a>
+			<a href="#2">2</a>
+			<a href="#3">3</a>
+			<a href="#4">4</a>
+			<a href="#5">5</a>
+		</div>
+	</main>
+	<footer class="main-footer">
+		<div class="links-user">
+			<a href="">twitter</a>
+			<a href="">instagram</a>
+			<a href="">facebook</a>
+			<a href="">vkontakte</a>
+		</div>
+		<div class="links-partner">
+			<a href="">Для поставщиков</a>
+			<a href="">О производстве</a>
+			<a href="">Наши документы</a>
+			<a href="">Экологические стандарты</a>
+		</div>
+		<div class="logo-label">
+			<p>
+				Сделано в HTML Academy © 2017
+			</p>
+		</div>
+	</footer>	
+</body>
+</html>
