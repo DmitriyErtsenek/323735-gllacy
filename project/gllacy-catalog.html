@@ -8,7 +8,7 @@
 	<header class="main-header">
 		<div class="container">
 			<div class="logo">
-			Logo
+			<a href="gllacy-start-page.html"><img src="http://placehold.it/150x100" alt="Logo"></a>
 			</div>
 			<nav class="main-navigation">
 				<ul>
@@ -24,13 +24,13 @@
 				</ul>		
 			</nav>
 			<div class="catalog-select">
-				<select>
-					<option>Новинки</option>
-					<option>Сливочное</option>
-					<option>Щербеты</option>
-					<option>Фруктовый лед</option>
-					<option>Мелорин</option>
-				</select>
+		   		<ul>
+		   			<li>Новинки</li>
+		   			<li><a href="gllacy-catalog.html">Сливочное</a></li>
+		   			<li>Щербеты</li>
+		   			<li>Фруктовый лед</li>
+		   			<li>Мелорин</li>
+		   		</ul>
 			</div>
 			<div class="user-block">
 				<button class="search"></button>
@@ -85,7 +85,9 @@
 	<main>
 		<div class="breadcrumbs">
 			<ul>
-				<li><a href="">Главная</a></li>
+				<li>
+					<a href="gllacy-start-page.html">Главная</a>
+				</li>
 				<li><a href="">Каталог</a></li>
 				<li><a href="">Сливочное</a></li>
 			</ul>
@@ -93,134 +95,109 @@
 		<h1 class="sort">
 			Сливочное мороженое
 		</h1>
-		<div class="select">
-			<form class="select-form" action="URL" method="post">
-				<label>Сортировка:
+		<div class="select"> 
+			<form>
+				<fieldset>
+					<legend>Сортировка</legend>
 					<select>
 						<option>по популярности</option>
 					</select>
-				</label>
-				<label>
-					Цена: 100 р. - 500 руб.
-					<input type="range" max="500" min="100" name="">
-				</label>
-				<label>
-					Жирность:
-					<label for="">
-						0%
-						<input type="radio" name="fatness" value="0">
-					</label>
-					<label for="">
-						до 10%
-						<input type="radio" name="fatness" value="<10" checked>
-					</label>
-					<label for="">
-						до 30%
-						<input type="radio" name="fatness" value="<30">
-					</label>
-					<label for="">
-						выше 30%
-						<input type="radio" name="fatness" value="30>" >
-					</label>
-				</label>
-				<label>
-					Наполнители:
-					<label>
-						шоколадные
-						<input type="checkbox" name="chocolate">
-					</label>
-					<label>
-						сахарные присыпки
-						<input type="checkbox" name="shugar-topping">
-					</label>
-					<label>
-						фрукты
-						<input type="checkbox" name="fruits">
-					</label>
-					<label>
-						сиропы
-						<input type="checkbox" name="cyrop">
-					</label>
-					<label>
-						джемы
-						<input type="checkbox" name="jam">
-					</label>
-				</label>
-				<button type="submit">
-					Применить
-				</button>
+				</fieldset>
+				<fieldset>
+					<legend>Цена: 100 руб. - 500 руб.</legend>
+				</fieldset>
+				<fieldset>
+					<legend>Жирность:</legend>
+					<p>
+						<input type="radio" name="fatness" id="nule" value="nule"><label for="nule"> 0%</label>
+						<input type="radio" name="fatness" id="to_10" value="to_10" checked > <label for="to_10">до 10%</label>
+						<input type="radio" name="fatness" id="to_30" value="to_30"> <label for="to_30">до 30%</label>
+						<input type="radio" name="fatness" id="above_30" value="above_30"> <label for="above_30">выше 30%</label>
+					</p>
+				</fieldset>
+				<fieldset>
+					<legend>Наполнители:</legend>
+					<p>
+						<input type="checkbox" name="chocolate" value="chocolate" id="choc"><label for="choc">шоколадные</label>
+						<input type="checkbox" name="shugar-powder" value="shugar-powder" id="shu"><label for="shu">сахарные присыпки</label>
+						<input type="checkbox" name="fruits" value="fruits" id="fru"><label for="fru">фрукты</label>
+						<input type="checkbox" name="syrop" value="syrop" id="syr"><label for="syr">сиропы</label>
+						<input type="checkbox" name="jam" value="jam" id="jam"><label for="jam">джемы</label>
+					</p>
+				</fieldset>
+				<button type="submit">Применить</button>
 			</form>
 		</div>
 		<div class="catalog">
 			<div class="cart">
-			<div class="product-image orange-citrus-chips"></div>
+			<div class="product-image orange-citrus-chips"><img src="http://placehold.it/150x100" alt="photo"></div>
 				<p>
 					Сливочное с апельсиновым джемом и цитрусовой стружкой
 				</p>
 			</div>
 			<div class="cart">
-			<div class="product-image coffee-chocolate"></div>
+			<div class="product-image coffee-chocolate"><img src="http://placehold.it/150x100" alt="photo"></div>
 				<p>
 					Сливочно-кофейное с кусочками шоколада
 				</p>
 			</div>
 			<div class="cart">
-			<div class="product-image strawberry-white-chocolate"></div>
+			<div class="product-image strawberry-white-chocolate"><img src="http://placehold.it/150x100" alt="photo"></div>
 				<p>
 					Сливочно-клубничное с присыпкой из белого шоколада
 				</p>
 			</div>
 			<div class="cart">
-			<div class="product-image creme-brulee-caramel"></div>
+			<div class="product-image creme-brulee-caramel"><img src="http://placehold.it/150x100" alt="photo"></div>
 				<p>
 					Сливочное крем-брюле с карамельной подливкой
 				</p>
 			</div>
 			<div class="cart">
-			<div class="product-image cranberry"></div>
+			<div class="product-image cranberry"><img src="http://placehold.it/150x100" alt="photo"></div>
 				<p>
 					Сливочное с брусничным джемом
 
 				</p>
 			</div>
 			<div class="cart">
-			<div class="product-image bilberry"></div>
+			<div class="product-image bilberry"><img src="http://placehold.it/150x100" alt="photo"></div>
 				<p>
 					Сливочно-черничное с цельными ягодами черники 
 				</p>
 			</div>
 			<div class="cart">
-			<div class="product-image lemon-caramel"></div>
+			<div class="product-image lemon-caramel"><img src="http://placehold.it/150x100" alt="photo"></div>
 				<p>
 					Сливочно-лимонное с карамельной присыпкой
 				</p>
 			</div>
 			<div class="cart">
-			<div class="product-image chocolate-chips"></div>
+			<div class="product-image chocolate-chips"><img src="http://placehold.it/150x100" alt="photo"></div>
 				<p>
 					Сливочное с шоколадной стружкой
 				</p>
 			</div>
 			<div class="cart">
-			<div class="product-image vanilla-chocolate"></div>
+			<div class="product-image vanilla-chocolate"><img src="http://placehold.it/150x100" alt="photo"></div>
 				<p>
 					Сливочно-ванильное с кусочками шоколада
 				</p>
 			</div>
 			<div class="cart">
-			<div class="product-image menthol"></div>
+			<div class="product-image menthol"><img src="http://placehold.it/150x100" alt="photo"></div>
 				<p>
 					Сливочноe с ментоловым сиропом
 				</p>
 			</div>
 			<div class="cart">
-			<div class="product-image black-chocolate-pieces"></div>
+			<div class="product-image black-chocolate-pieces"><img src="http://placehold.it/150x100" alt="photo"></div>
 				<p>
 					Сливочное с кусочками черного шоколада
 				</p>
 			</div>
 			<div class="cart">
-			<div class="product-image mint-syrup"></div>
+			<div class="product-image mint-syrup"><img src="http://placehold.it/150x100" alt="photo"></div>
 				<p>
 					Сливочное с мятным сиропом
 				</p>
