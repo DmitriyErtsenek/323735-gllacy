@@ -1,0 +1,164 @@
+/*----------------------HEADER---------------------*/
+
+header {
+	color: #ffffff;
+	font-weight: bold;
+	background-color: pink;
+}
+
+.main-navigation {
+	font-size: 16px;
+	line-height: 18px;
+	list-style-type: none;
+}
+
+.main-navigation a {
+	text-decoration: none;
+	color: #ffffff;	
+}
+
+.main-navigation ul {
+	list-style-type: none; 
+}
+
+.list {
+	font-size: 14px;
+	line-height: 16px;
+	color: #323232;
+	font-weight: normal;
+	list-style-type: none;
+}
+
+.list a {
+	color: #323232;
+}
+
+.list li:first-child {
+	font-weight: bold;
+}
+
+.user-block {
+	font-size: 14px;
+	line-height: 16px;
+	font-weight: normal;
+}
+
+.schedule p {
+	font-weight: bold;
+}
+
+.schedule span {
+	font-size: 22px;
+	line-height: 24px; 
+}
+
+.enter-form a {
+	font-size: 13px;
+	line-height: 24px;
+	color: #323232; 
+}
+
+/*-------------------------------MAIN----------------------*/
+
+main {
+	color: #ffffff;
+	font-weight: bold;
+	background-color: pink; 
+}
+
+.raspberries h2,
+.chocolate h2 {
+	font-size: 35px;
+	line-height: 41px;
+}
+
+.raspberries p,
+.chocolate p {
+	font-size: 18px;
+	line-height: 22px;
+}
+
+.product>p {
+	font-size: 16px;
+	line-height: 22px;
+	font-weight: normal;
+	text-decoration: underline;
+}
+
+.product-image p {
+	font-size: 30px;
+	line-height: 45px;
+
+}
+
+.product-image span {
+	font-size: 45px;
+	line-height: 45px;  
+} 
+
+.product-image a {
+	font-size: 18px;
+	line-height: 24px;
+	color: #ffffff;
+}
+
+.about-company {
+	font-size: 16px;
+	line-height: 22px;
+	color: #323232;
+
+}
+
+.about-company h2 {
+	font-size: 24px;
+	line-height: 30px;
+}
+
+.about-blog {
+	color: #323232;
+}
+
+.about-blog h2 {
+	font-size: 16px;
+	font-weight: 22px;
+}
+
+.about-blog a {
+	font-size: 24px;
+	line-height: 30px; 
+	color: inherit;
+}
+
+.distribution p {
+	font-size: 16px;
+	line-height: 22px;
+	font-weight: normal;
+	color: #5a5a5a;
+}
+
+/*-----------------------------FOOTER-----------*/
+
+footer {
+	background-color: pink; 
+}
+
+.links-partner a {
+	font-weight: normal;
+	color: #ffffff; 
+	font-size: 13px;
+	line-height: 18px;
+}
+
+.logo-label {
+	font-size: 12px;
+	line-height: 18px;
+	color: #ffffff;
+}
+
+.logo-label a {
+	color: #ffffff;
+}
+
+/*-----------------------slider--------------*/
+
+input[name="slider"]
