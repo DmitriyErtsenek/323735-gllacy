@@ -1,0 +1,198 @@
+body {
+	background-color: pink;
+}
+
+/*-----------------------HEADER-------------------*/
+header {
+	color: #ffffff;
+	font-weight: bold;
+	background-color: pink;
+}
+
+.main-navigation {
+	font-size: 16px;
+	line-height: 18px;
+	list-style-type: none;
+
+}
+
+.main-navigation a {
+	text-decoration: none;
+	color: #ffffff;	
+}
+
+.main-navigation ul {
+	list-style-type: none; 
+}
+
+.list {
+	font-size: 14px;
+	line-height: 16px;
+	color: #323232;
+	font-weight: normal;
+	list-style-type: none;
+}
+
+.list a {
+	color: #323232;
+}
+
+.list li:first-child {
+	font-weight: bold;
+}
+
+.user-block {
+	font-size: 14px;
+	line-height: 16px;
+	font-weight: normal;
+}
+
+.schedule p {
+	font-weight: bold;
+}
+
+.schedule span {
+	font-size: 22px;
+	line-height: 24px;
+	font-weight: bold;
+}
+
+.enter-form a {
+	font-size: 13px;
+	line-height: 24px;
+	color: #323232; 
+}
+
+.basket-icon p {
+	font-size: 14px;
+	line-height: 16px;
+	color: #323232;
+}
+
+.basket-cart p {
+	font-size: 13px;
+	line-height: 16px;
+	color: #323232;
+}
+
+.basket-cart span {
+	color: #999999;
+}
+
+.total p {
+	font-size: 15px;
+	line-height: 18px;
+	font-weight: bold;
+}
+
+
+/*--------------------------MAIN----------------*/
+
+main {
+	font-weight: bold;
+	color: #ffffff;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.breadcrumbs li a {
+	color: #ffffff;
+	font-size: 14px;
+	line-height: 16px;
+	font-weight: normal;
+}
+
+.breadcrumbs li:last-child {
+	color: #ffffff;
+	font-size: 14px;
+	line-height: 16px;
+	font-weight: normal;
+}
+
+h1 {
+	font-size: 35px;
+	line-height: 41px;
+}
+
+label {
+	font-size: 14px;
+	line-height: 16px;
+	color: #ffffff;
+	font-weight: normal;
+}
+
+legend {
+	font-size: 14px;
+	line-height: 16px;
+	color: #ffffff;
+	font-weight: normal;
+}
+
+fieldset {
+	border: none;
+}
+
+.select fieldset:nth-of-type(4) label {
+	line-height: 18px;
+}
+
+button {
+	color: #ffffff;
+}
+
+.product>p {
+	font-size: 16px;
+	line-height: 22px;
+	font-weight: normal;
+	text-decoration: underline;
+}
+
+.product-image p {
+	font-size: 30px;
+	line-height: 45px;
+
+}
+
+.product-image span {
+	font-size: 45px;
+	line-height: 45px;  
+} 
+
+.product-image a {
+	font-size: 18px;
+	line-height: 24px;
+	color: #ffffff;
+}
+
+.pages a {
+	font-size: 16px;
+	line-height: 18px;
+	text-decoration: none;
+	color: #ffffff;
+}
+
+
+/*---------------------------------FOOTER-------------*/
+
+footer {
+	background-color: pink; 
+}
+
+.links-partner a {
+	font-weight: normal;
+	color: #ffffff; 
+	font-size: 13px;
+	line-height: 18px;
+}
+
+.logo-label {
+	font-size: 12px;
+	line-height: 18px;
+	color: #ffffff;
+}
+
+.logo-label a {
+	color: #ffffff;
+}
