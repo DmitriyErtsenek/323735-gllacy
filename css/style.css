@@ -1,0 +1,452 @@
+
+
+
+/*----------------------HEADER---------------------*/
+
+
+
+.main-header {
+	color: #ffffff;
+	font-weight: bold;
+	background-color: #95b2a2;
+}
+
+.main-navigation {
+	font-size: 16px;
+	line-height: 18px;
+	list-style-type: none;
+}
+
+.main-navigation a {
+	text-decoration: none;
+	color: #ffffff;	
+}
+
+.main-navigation ul {
+	list-style-type: none; 
+
+}
+
+.list {
+	font-size: 14px;
+	line-height: 16px;
+	color: #323232;
+	font-weight: normal;
+	list-style-type: none;
+}
+
+.list a {
+	color: #323232;
+}
+
+.list li:first-child {
+	font-weight: bold;
+}
+
+.user-block {
+	font-size: 14px;
+	line-height: 16px;
+	font-weight: normal;
+}
+
+.schedule p {
+	font-weight: bold;
+}
+
+.schedule span {
+	font-size: 22px;
+	line-height: 24px; 
+}
+
+.enter-form a {
+	font-size: 13px;
+	line-height: 24px;
+	color: #323232; 
+}
+
+.basket-icon {
+	font-size: 14px;
+	line-height: 16px;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+.basket-icon-2 {
+	font-size: 14px;
+	line-height: 16px;
+	color: #000000;
+	font-weight: bold;
+}
+
+.basket-cart p {
+	font-size: 13px;
+	line-height: 16px;
+	color: #323232;
+}
+
+.basket-cart span {
+	color: #999999;
+}
+
+.total p {
+	font-size: 15px;
+	line-height: 18px;
+	font-weight: bold;
+}
+
+/*-------------------------------MAIN----------------------*/
+
+main {
+	color: #ffffff;
+	font-weight: bold;
+	background-color: #95b2a2; 
+}
+
+.raspberries h2,
+.chocolate h2 {
+	font-size: 35px;
+	line-height: 41px;
+}
+
+.raspberries p,
+.chocolate p {
+	font-size: 18px;
+	line-height: 22px;
+}
+
+.product>p {
+	font-size: 16px;
+	line-height: 22px;
+	font-weight: normal;
+	text-decoration: underline;
+}
+
+.product-image p {
+	font-size: 30px;
+	line-height: 45px;
+
+}
+
+.product-image span {
+	font-size: 45px;
+	line-height: 45px;  
+} 
+
+.product-image a {
+	font-size: 18px;
+	line-height: 24px;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.about-company {
+	font-size: 16px;
+	line-height: 22px;
+	color: #323232;
+
+}
+
+.about-company h2 {
+	font-size: 24px;
+	line-height: 30px;
+}
+
+.about-blog {
+	color: #323232;
+}
+
+.about-blog h2 {
+	font-size: 16px;
+	font-weight: 22px;
+}
+
+.about-blog a {
+	font-size: 24px;
+	line-height: 30px; 
+	color: inherit;
+}
+
+.distribution p {
+	font-size: 16px;
+	line-height: 22px;
+	font-weight: normal;
+	color: #5a5a5a;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.breadcrumbs li a {
+	color: #ffffff;
+	font-size: 14px;
+	line-height: 16px;
+	font-weight: normal;
+}
+
+.breadcrumbs li:last-child {
+	color: #ffffff;
+	font-size: 14px;
+	line-height: 16px;
+	font-weight: normal;
+}
+
+.pages a {
+	font-size: 16px;
+	line-height: 18px;
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.sort {
+	font-size: 35px;
+	line-height: 41px;
+}
+
+.get label {
+	font-size: 14px;
+	line-height: 16px;
+	color: #ffffff;
+	font-weight: normal;
+}
+
+.get legend {
+	font-size: 14px;
+	line-height: 16px;
+	color: #ffffff;
+	font-weight: normal;
+}
+
+.get fieldset {
+	border: none;
+}
+
+
+.select fieldset:nth-of-type(4) label {
+	line-height: 18px;
+}
+
+/*-----------------------------FOOTER-----------*/
+
+footer {
+	background-color: #95b2a2; 
+}
+
+.links-partner a {
+	font-weight: normal;
+	color: #ffffff; 
+	font-size: 13px;
+	line-height: 18px;
+}
+
+.logo-label {
+	font-size: 12px;
+	line-height: 18px;
+	color: #ffffff;
+}
+
+.logo-label a {
+	color: #ffffff;
+}
+
+/*-----------------------slider--------------*/
+
+input[name="slider"]
+
+
+
+/*-----FONT---------------------------*/
+
+
+/* Задал три шрифта из папки проекта. 
+В ФШ указан просто Roboto и начертание Bold, что мне выбрать из этих шрифто
+Робото болд или робото регулар?*/
+@font-face: { 
+	font-family: "Roboto-Bold";
+	src: url(../fonts/Roboto-Bold.ttf) format("ttf"),
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face: { 
+	font-family: "Roboto-Medium";
+	src: url(../fonts/Roboto-Medium.ttf) format("ttf"),
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face: { 
+	font-family: "Roboto-Regular";
+	src: url(../fonts/Roboto-Regular.ttf) format("ttf"),
+	font-style: normal;
+	font-weight: normal;
+}
+
+
+/*-------------------GRID-HEADER---------------------*/
+
+
+
+
+body {
+	font-family: "Roboto-Regular", sans-serif;
+	min-width: 1200px;
+	min-height: 2500px;
+	background-color: #849d8f;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	display: flex;
+	outline: 1px solid black;
+	padding-bottom: 100px;
+}
+
+.logo {
+	margin-left: 25px;
+	margin-top: 10px;
+}
+
+.main-navigation {
+	margin-top: 30px;
+}
+
+.main-navigation>ul {
+	padding: 0;
+	margin: 0;
+	display: flex;
+	min-width: 400px;
+	min-height: 20px;
+	justify-content: space-around;
+	position: relative;
+}
+
+.main-navigation>ul>li {
+	outline: 1px solid #000000;
+	min-width: 82px;
+} 
+
+
+
+.list {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	visibility: hidden;
+	position: absolute;
+
+}
+
+.user-block {
+	margin-left: auto;
+	margin-right: 25px;
+	margin-top: 25px;
+	display: flex;
+	flex-wrap: wrap;
+	width: 285px;
+	height: auto;
+
+} 
+
+.search {
+	position: relative;
+	width: 35px;
+	height: 35px;
+	margin-right: 10px;
+	background-color: rgba(255, 255, 255, 0.2);
+	border-radius: 50%;
+	
+}
+
+
+.search-form {
+	position: absolute;
+	visibility: hidden;
+}
+
+.search-icon::before {
+	content: "";
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	left: 8px;
+	top: 8px;
+	background: url("../img/Sprites.png") no-repeat -72px -1px;
+}
+
+.enter {
+	display: flex;
+	position: relative;
+	min-width: 70px;
+	height: 35px;
+	justify-content: center;
+	align-items: center;
+	margin-right: 10px;
+	background-color: rgba(255, 255, 255, 0.2);
+	border-radius: 20px 20px 20px 20px;
+	padding-left: 18px;
+	font-weight: bold;
+}
+
+/*Здесь используется медиум, который в папке есть и я именно его и подключил
+В фш начертание этого шрифта Регулар, т.е. в свойствах указываю normal,
+но результат отличается от макета*/
+.enter-icon {
+	font-family: "Roboto-Medium", sans-serif;
+	font-weight: normal;
+	
+}
+
+.enter-icon::before {
+	content: "";
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	left: 12px;
+	top: 7px;
+	background: url("../img/Sprites.png") no-repeat -104px -1px;
+	
+}
+
+.enter-form {
+	position: absolute;
+	visibility: hidden;
+}
+
+
+.basket {
+	display: flex;
+	position: relative;
+	justify-content: center;
+	align-items: center;
+	min-width: 90px;
+	height: 35px;
+	background-color: rgba(255, 255, 255, 0.2);
+	border-radius: 20px 20px 20px 20px;
+	padding-left: 15px;
+
+}
+
+.basket-icon::before {
+	content: "";
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	left: 14px;
+	top: 8px;
+	background: url("../img/Sprites.png") no-repeat -137px 0px;
+}
+
+.schedule {
+	min-width: 170px;
+	margin-left: auto;
+	text-align: right;
+	min-height: 40px;
+	margin-top: 20px;
+}
+
+/*div {outline: 1px solid blue;}
+
+
