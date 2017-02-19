@@ -14,21 +14,21 @@
 				</div>
 				<nav class="main-navigation">
 					<ul class="menu">
-						<li>
+						<li class="menu-catalog">
 							<a href="">Каталог</a>
 							<ul class="list">
-								<li>Новинки</li>
-								<li><a href="gllacy-catalog.html">Сливочное</a></li>
-								<li>Щербеты</li>
-								<li>Фруктовый лед</li>
-								<li>Мелорин</li>
+								<li><a >Новинки</a></li>
+								<li class="active">Сливочное</li>
+								<li><a>Щербеты</a></li>
+								<li><a>Фруктовый лед</a></li>
+								<li><a>Мелорин</a></li>
 							</ul>
 						</li>
-						<li>
-							<a href="">Доставка и оплата</a>
+						<li class="menu-delivery">
+							<a>Доставка и оплата</a>
 						</li>
-						<li>
-							<a href="">О Компании</a>
+						<li class="menu-about-co">
+							<a>О Компании</a>
 						</li>
 					</ul>
 				</nav>
@@ -37,29 +37,38 @@
 						<div class="search-icon"></div>
 						<div class="search-form">
 							<form action="URL" method="get">
-								<input type="search" name="search" placeholder="Что ищем?">
+								<input class="input-search" type="search" name="search" id="search" placeholder="Что ищем?">
+								<label for="search">Что ищем?</label>
 							</form>
 						</div>
 					</div>
 					<div class="enter">
 						<p class="enter-icon">Вход</p>
+						<div class="enter-cursor"></div>
 						<div class="enter-form">
 							<form action="URL" method="post">
-								<input type="email" name="email"  placeholder="Электронная почта" >
-								<input type="password" name="password" placeholder="Пароль">
-								<button type="submit" value="enter">Войти</button>
-								<a href="">Забыли пароль?</a>
-								<a href="">Новая регистрация</a>
+								
+								<input id="email" class="input-email" type="email" name="email"  placeholder="Электронная почта" >
+								<label for="email" >Электронная почта</label>
+								
+								<input id="input" class="input-password" type="password" name="password" placeholder="Пароль">
+								<label for="input">Пароль</label>
+								
+								<input type="submit" value="Войти">
+								<div class="enter-links">
+									<a href="">Забыли пароль?</a>
+									<a href="">Новая регистрация</a>
+								</div>
 							</form>
 						</div>
 					</div>
-					<div class="basket">
+					<div class="basket products">
 						
 						<p class="basket-icon products">2 товара</p>
-						
+						<div class="basket-cursor"></div>
 						<div class="basket-cart">
 							<div class="basket-product">
-								<div class="product-icon"><img src="/img/basket-img-1.png"
+								<div class="product-icon"><img src="./img/basket-img-1.png"
 								width="33" height="33" alt="photo"></div>
 								<div class="basket-description">
 									<p>Пломбир с апельсиновым джемом</p>
@@ -72,7 +81,7 @@
 								</div>
 							</div>
 							<div class="basket-product">
-								<div class="product-icon"><img src="/img/basket-img-2.png"
+								<div class="product-icon"><img src="./img/basket-img-2.png"
 								width="33" height="33" alt="photo"></div>
 								<div class="basket-description">
 									<p>Клубничный пломбир с присыпкой из белого шоколада</p>
@@ -84,17 +93,18 @@
 									<p>450 руб.</p>
 								</div>
 							</div>
+							<div class="total-line"></div>
 							<div class="total">
 								<p>Итого: 750 руб.</p>
 							</div>
-							<a href="">Оформить заказ</a>
+							<a class="btn-submit">Оформить заказ</a>
 						</div>
 					</div>
-					
+					<div class="schedule">
+						<p>C 10 до 20, ежедневно </p><span>8 812 450-25-25</span>
+					</div>
 				</div>
-				<div class="schedule">
-					<p>C 10 до 20, ежедневно </p><span>8 812 450-25-25</span>
-				</div>
+				
 			</div>
 		</div>
 	</header>
@@ -299,7 +309,7 @@
 		</div>
 	</div>
 	<div class="pages">
-		<a href=""></a>
+		<a></a>
 		<a>1</a>
 		<a href="#2">2</a>
 		<a href="#3">3</a>
